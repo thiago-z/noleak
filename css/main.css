@@ -58,9 +58,10 @@ p{
 	background:#5f6b7a;
 }
 .copyright footer{
-	width:200px;
+	width:auto;
 	margin:0 auto;
 }
 .copyright footer p{
 	margin-top:20px;
+	text-align: center;
 }
