@@ -29,27 +29,14 @@
         <!-- Código retidado de http://twitter.github.com/bootstrap/examples/hero.html -->
 		
 		<!-- Início da barra de navegação -->
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#"><img src="img/logo_header.png" alt="logo noleak"></a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="index.html" title="Página inicial">Home</a></li>
-							<li><a href="#" title="" rel="nofollow">Produtos</a></li>
-                            <li><a href="#" title="" rel="nofollow">Serviços</a></li>
-                            <li><a href="#" title="" rel="nofollow">Quem somos</a></li>
-                            <li><a href="#" title="#">Contato</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-               </div>
-           </div>
-        </div>
+        
+        	<?php 
+			
+				require "barra_navegacao.php";
+	
+			?>
+        
+        
 		<!-- Fim da barra de navegação -->
         <!-- Início do container para a classe 'hero-unit' -->
 		<div class="container-fluid hero">
@@ -70,7 +57,11 @@
 		<div class="container-fluid submenu"><!-- Submenu -->
 			<div class="row-fluid">
 				<div class="span12">
-					<p>Aqui podemos colocar um submenu, ou até mesmo utilizar Breadcrumbs!</p>
+					<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+						<li class="breadcrumb-item active" aria-current="page">Home</li>
+					  </ol>
+					</nav>
 				</div>
 			</div>
 		</div><!-- /Submenu -->
