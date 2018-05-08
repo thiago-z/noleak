@@ -6,4 +6,5 @@
 <file name="servicos.php" server="192.168.1.10//var/www/html/" local="131702104970687601" remote="131702212800000000" Dst="1" />
 <file name="quem_somos.php" server="192.168.1.10//var/www/html/" local="131702133047357044" remote="131702241000000000" Dst="1" />
 <file name="artigos.php" server="192.168.1.10//var/www/html/" local="131702145040479711" remote="131702253000000000" Dst="1" />
+<file name="contato.php" server="192.168.1.10//var/www/html/" local="131702194026637399" remote="131702301600000000" Dst="1" />
 </dwsync>
