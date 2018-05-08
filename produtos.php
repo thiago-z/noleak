@@ -10,7 +10,7 @@
         		
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
 		
-		<title>Noleak - Home</title>
+		<title>Noleak - Produtos</title>
 		
 		<script src="js/jquery-1.8.1.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -43,14 +43,14 @@
 
             <!-- Hero unit para o showcase -->
             <div class="hero-unit">
-				<h1>Seja bem vindo à NOLEAK!</h1>
+				<h1>Conheça nossa linha de produtos</h1>
 				<br />
-                <p>A utilização de gás LP (antigo GLP) e de gás natural tem se expandido assustadoramente tanto para o consumo residencial, quanto para o comercial e o industrial. Mas para que a utilização destes gases seja segura é necessário que se tomem todas as medidas de segurança disponíveis, e mesmo assim, temos notícias de vários acidentes.</p>
+                <p>A NOLEAK oferece uma linha completa de bloqueadores de gás com utilização adequada desde em apartamentos residenciais,até sistemas industriais de grande porte.</p>
 
-				<p>Para aumentar a sua segurança, criamos o equipamento de monitoramento e bloqueio de gás NOLEAK, que é também aplicável a todos os tipos de produtos perigosos.</p>
+				<p>São atualmente oito modelos de equipamentos que poderão ser selecionados de acordo com a sua necessidade.</p>
 
-				<p>O NOLEAK bloqueia o gás automaticamente, quando necessário, ou pode bloqueá-lo de forma manual ou programada por escolha do usuário. São oito modelos criados para garantir a sua segurança e economia.</p>
-				<p><a href="#" class="btn btn-primary btn-large" rel="" title="">Saiba mais &raquo;</a></p>
+				<p>Confira abaixo as funcionalidades de cada um dos modelos e tire suas dúvidas falando conosco através do nosso atendimento on line.</p>
+				
             </div>
 		</div> <!-- /container hero -->
 		
@@ -59,7 +59,8 @@
 				<div class="span12">
 					<nav aria-label="breadcrumb">
 					  <ol class="breadcrumb">
-						<li class="breadcrumb-item active" aria-current="page">Home</li>
+						<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Produtos</li>
 					  </ol>
 					</nav>
 				</div>
@@ -72,43 +73,44 @@
            <div class="container-fluid"><!-- Submenu -->
 			<div class="row-fluid">
 				<div class="span12">
-					<h3>Nós presamos pela segurança</h3>
+					<h3>Nossos produtos</h3>
 				</div>
 			</div>
 		</div><!-- /Submenu -->
             <div class="row-fluid">
-                <div class="span4">
-                   <div class="destaque_home">
+                <div class="span12">
+                   <div class="produto_container">
                    		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
 
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
-						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
-                </div>
-                
-                 <div class="span4">
-                   <div class="destaque_home">
-                   		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
+                   <article class="produto_descricao">
 
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
+						<h2>Bloqueador de gás NOLEAK residencial</h2>
+						<p>Indicado para o bloqueio manual remoto do fornecimento de gás em apartamentos e em casas com gás canalizado,levando comodidade, segurança e economia.</p>
+
+						<p>Neste equipamento, o bloqueio do gás é realizado pelo cliente, através de um controle remoto com fio(botão).O bloqueio pode ser acionado pelo cliente sempre que este precisar ou desejar. Ex:Sempre que não houver ninguém em casa, durante a noite, durante viagens,etc.</p>
+
+						<p>Instalação prática,rápida e limpa. </p>
 						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
+                    </article>
                 </div> 
-                
-                <div class="span4">
-                   <div class="destaque_home">
+                            
+                <div class="produto_container">
                    		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
 
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
+                   <article class="produto_descricao">
+
+						<h2>Bloqueador de gás NOLEAK residencial</h2>
+						<p>Indicado para o bloqueio manual remoto do fornecimento de gás em apartamentos e em casas com gás canalizado,levando comodidade, segurança e economia.</p>
+
+						<p>Neste equipamento, o bloqueio do gás é realizado pelo cliente, através de um controle remoto com fio(botão).O bloqueio pode ser acionado pelo cliente sempre que este precisar ou desejar. Ex:Sempre que não houver ninguém em casa, durante a noite, durante viagens,etc.</p>
+						
+						<p>Este equipamento é dotado de sensor eletrônico de vazamentos, para bloqueios de segurança.</p>
+
+						<p>Instalação prática,rápida e limpa.</p>
 						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
-                </div>                             
+                    </article>
+                </div>             
+                             
             </div>
         </div> <!-- /container 2-->
             <hr>

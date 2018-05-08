@@ -7,8 +7,11 @@
   padding: 50px 0px;
 }
 
+@media only screen and (min-width: 768px) {
+
+
 .destaque_home {
-	background-color: aqua;
+	/*background-color: aqua;*/
 	padding: 5px;
 	transition: .8s all ease;
 	margin-bottom: 20px;
@@ -18,3 +21,155 @@
 	box-shadow: 2px 2px 4px #000000;
 	transition: .8s all ease;
 }
+
+
+
+	
+	
+	
+/*##### ESTILO PÁGINA PRODUTOS #####*/
+
+.produto_container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 60px;
+}
+
+.produto_container img {
+	width: 600px;
+	height: 100%;
+}
+
+.produto_descricao {
+	width: auto;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+
+	
+	
+
+	
+/*##### ESTILO PÁGINA DE ARTIGOS #####*/	
+
+.lista_duvidas_container {
+	padding: 10px;
+}	
+	
+	
+.lista_duvidas_container span {
+	font-size: 1.25em; /*20px*/	
+	font-weight: bold;
+}	
+
+.submenu_lista_duvidas {
+	margin-top: 5px;
+}	
+	
+.submenu_lista_duvidas li {
+	list-style: none;
+}	
+	
+	
+	
+/*##### ESTILO PÁGINA QUEM SOMOS #####*/
+
+.tecnico_container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 60px;
+}
+
+.tecnico_container img {
+	width: 400px;
+	height: 100%;
+}
+
+.tecnico_descricao {
+	width: auto;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+	
+.tecnico_descricao li{
+	list-style: none;
+}	
+
+	
+	
+	
+	
+	
+	
+	
+}	
+		
+@media only screen and (max-width: 767px) {
+
+
+	
+	
+	
+/*##### ESTILO PÁGINA PRODUTOS #####*/
+	
+.produto_container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+}
+
+.produto_container img {
+	width: 100%;
+	height: auto;
+}
+
+.produto_descricao {
+	width: 100%;
+}
+
+	
+	
+	
+
+/*##### ESTILO PÁGINA DE ARTIGOS #####*/	
+
+.lista_duvidas_container span {
+	font-size: 1.25em; /*20px*/	
+	font-weight: bold;
+}	
+
+.submenu_lista_duvidas {
+	margin-top: 5px;
+}	
+	
+.submenu_lista_duvidas li {
+	list-style: none;
+}	
+	
+	
+	
+	
+	
+/*##### ESTILO PÁGINA QUEM SOMOS #####*/
+	
+.tecnico_container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+}
+
+.tecnico_container img {
+	width: 100%;
+	height: auto;
+}
+
+.tecnico_descricao {
+	width: 100%;
+}	
+	
+}
+

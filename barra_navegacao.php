@@ -13,9 +13,10 @@
                         <ul class="nav">
                             <li class="active"><a href="index.php" title="Página inicial">Home</a></li>
 							<li><a href="produtos.php" title="Conheça nossos produtos" rel="nofollow">Produtos</a></li>
-                            <li><a href="#" title="" rel="nofollow">Serviços</a></li>
-                            <li><a href="#" title="" rel="nofollow">Quem somos</a></li>
-                            <li><a href="#" title="#">Contato</a></li>
+                            <li><a href="servicos.php" title="Nossos serviços" rel="nofollow">Serviços</a></li>
+                            <li><a href="artigos.php" title="Artigos" rel="nofollow">Artigos</a></li>
+                            <li><a href="quem_somos.php" title="Quem somos" rel="nofollow">Quem somos</a></li>
+                            <li><a href="contato.php" title="Contato">Contato</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                </div>

@@ -10,7 +10,7 @@
         		
         <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Importante para habilitar os recursos de Responsividade em conjunto com o CSS -->
 		
-		<title>Noleak - Home</title>
+		<title>Noleak - Serviços</title>
 		
 		<script src="js/jquery-1.8.1.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -29,28 +29,27 @@
         <!-- Código retidado de http://twitter.github.com/bootstrap/examples/hero.html -->
 		
 		<!-- Início da barra de navegação -->
-       
-       	<?php 
+        
+        	<?php 
 			
-			require "barra_navegacao.php";
+				require "barra_navegacao.php";
 	
-		?>
-       
-       
+			?>
+        
+        
 		<!-- Fim da barra de navegação -->
         <!-- Início do container para a classe 'hero-unit' -->
 		<div class="container-fluid hero">
 
             <!-- Hero unit para o showcase -->
             <div class="hero-unit">
-				<h1>Seja bem vindo à NOLEAK!</h1>
+				<h1>Trabalhamos pela sua segurança e economia!</h1>
 				<br />
-                <p>A utilização de gás LP (antigo GLP) e de gás natural tem se expandido assustadoramente tanto para o consumo residencial, quanto para o comercial e o industrial. Mas para que a utilização destes gases seja segura é necessário que se tomem todas as medidas de segurança disponíveis, e mesmo assim, temos notícias de vários acidentes.</p>
+                <p>A NOLEAK além de fabricar bloqueadores de gases combustíveis e de produtos perigosos executa serviços específicos ligados e estas atividades.</p>
 
-				<p>Para aumentar a sua segurança, criamos o equipamento de monitoramento e bloqueio de gás NOLEAK, que é também aplicável a todos os tipos de produtos perigosos.</p>
-
-				<p>O NOLEAK bloqueia o gás automaticamente, quando necessário, ou pode bloqueá-lo de forma manual ou programada por escolha do usuário. São oito modelos criados para garantir a sua segurança e economia.</p>
-				<p><a href="#" class="btn btn-primary btn-large" rel="" title="">Saiba mais &raquo;</a></p>
+				<p>Por fazer uso da mais alta tecnologia e pelo alto grau de responsabilidade envolvidos nos serviços que executamos, dispomos de equipe técnica de ponta, lederada por nossos responsáveis técnicos.
+				O NOLEAK bloqueia o gás automaticamente, quando necessário, ou pode bloqueá-lo de forma manual ou programada por escolha do usuário. São oito modelos criados para garantir a sua segurança e economia.</p>
+				
             </div>
 		</div> <!-- /container hero -->
 		
@@ -59,7 +58,9 @@
 				<div class="span12">
 					<nav aria-label="breadcrumb">
 					  <ol class="breadcrumb">
-						<li class="breadcrumb-item active" aria-current="page">Home</li>
+						<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+						<li class="breadcrumb-item"><a href="produtos.php">Produtos</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Serviços</li>
 					  </ol>
 					</nav>
 				</div>
@@ -72,45 +73,42 @@
            <div class="container-fluid"><!-- Submenu -->
 			<div class="row-fluid">
 				<div class="span12">
-					<h3>Nós presamos pela segurança</h3>
+					<h3>Nossos serviços</h3>
 				</div>
 			</div>
 		</div><!-- /Submenu -->
             <div class="row-fluid">
-                <div class="span4">
-                   <div class="destaque_home">
+                <div class="span12">
+                   <div class="produto_container">
                    		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
 
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
-						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
-                </div>
-                
-                 <div class="span4">
-                   <div class="destaque_home">
-                   		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
+                   <article class="produto_descricao">
 
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
+						<h2>Monitoramento e proteção de centrais de gases combustíveis</h2>
+						<p>Através dos bloqueadores de gás NOLEAK instalamos sistemas de monitoramento da operação de centrais de gases combustíveis de todos os tipos e portes.</p>
+						<p>Este monitoramento inclui o controle sobre possíveis vazamentos de gás, a operação com horários programados e as possibilidades de desligamentos manuais remotos.</p>
 						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
-                </div> 
-                
-                <div class="span4">
-                   <div class="destaque_home">
-                   		<img src="img/img_provisoria.jpg" alt="">
-						<h2>As suas instalações podem estar em risco!</h2>
-						<p>Já fez a inspeção das tubulações de gás do seu negócio e do seu condomínio este ano? Elimine este risco!</p>
-
-						<p>Contrate uma inspeção com explosímetro digital, laudo técnico e ART.   Fique seguro e economize gás!</p>
-						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
-                    </div>
-                </div>                             
+                    </article>
+                </div>                                                 
             </div>
         </div> <!-- /container 2-->
+           
+        <div class="row-fluid">
+                <div class="span12">
+                   <div class="produto_container">
+                   		<img src="img/img_provisoria.jpg" alt="">
+
+                   <article class="produto_descricao">
+
+						<h2>Monitoramento e proteção de centrais de gases combustíveis</h2>
+						<p>Através dos bloqueadores de gás NOLEAK instalamos sistemas de monitoramento da operação de centrais de gases combustíveis de todos os tipos e portes.</p>
+						<p>Este monitoramento inclui o controle sobre possíveis vazamentos de gás, a operação com horários programados e as possibilidades de desligamentos manuais remotos.</p>
+						<p><a class="btn" href="#" title="">Veja mais &raquo;</a></p>
+                    </article>
+                </div>                                                 
+            </div>
+        </div> <!-- /container 2-->   
+           
             <hr>
 		<div class="container-fluid rodape">
 			<div class="row-fluid">
@@ -152,7 +150,7 @@
 		</div>
 		<div class="container-fluid copyright">
             <footer>
-                <p><a href="#" title="#">&copy; Thiago Silva 2018</a></p>
+                <p><a href="#" title="#">&copy; 2018 Todos os direitos reservados | Noleak | Site criado por Thiago Silva</a></p>
             </footer>
 		</div>
 		<!-- Script para o Google Analytics-->
